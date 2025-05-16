@@ -16,7 +16,7 @@ namespace {
     RT_MUTEX frameMutex;
     RT_SEM frameSync;
     RT_SEM preprocessSync;
-    RT_SEM detectionSync;
+    RT_SEM detectionSync; 
     
     // Shared buffers
     cv::Mat mergedFrame;
